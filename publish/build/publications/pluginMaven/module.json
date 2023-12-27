@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.payclip.blaze",
+    "module": "publish",
+    "version": "0.0.1-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "publish-0.0.1-alpha03.jar",
+          "url": "publish-0.0.1-alpha03.jar",
+          "size": 32476,
+          "sha512": "625fd11f2ac617d5fa614e1289ab4f398388164c2409670338bd36a8efea6a73bfd99c63b52ef1f2728e4ab1bd7b4c425386d58de4281e3ea2b9bc57eafe8833",
+          "sha256": "1e2a7d5be8887df21954fe03968a0de77ba545dad9e202c1e9c37c9e87e0de44",
+          "sha1": "0c10d5de6ac397e466d4d3749f6c8877e025b937",
+          "md5": "945b8aa8e32b0937b2d5407af22148fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "publish-0.0.1-alpha03.jar",
+          "url": "publish-0.0.1-alpha03.jar",
+          "size": 32476,
+          "sha512": "625fd11f2ac617d5fa614e1289ab4f398388164c2409670338bd36a8efea6a73bfd99c63b52ef1f2728e4ab1bd7b4c425386d58de4281e3ea2b9bc57eafe8833",
+          "sha256": "1e2a7d5be8887df21954fe03968a0de77ba545dad9e202c1e9c37c9e87e0de44",
+          "sha1": "0c10d5de6ac397e466d4d3749f6c8877e025b937",
+          "md5": "945b8aa8e32b0937b2d5407af22148fe"
+        }
+      ]
+    }
+  ]
+}
